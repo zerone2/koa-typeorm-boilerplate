@@ -9,6 +9,7 @@ createConnection()
   .then(async (connection) => {
     const app = new Koa()
     const router = new Router()
+    console.log('test')
 
     app.use(bodyParser())
     app.use(router.routes)
