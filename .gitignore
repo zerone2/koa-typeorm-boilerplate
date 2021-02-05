@@ -1,0 +1,33 @@
+node_modules/
+tmp/
+temp/
+
+#config
+.env
+.ormconfig.json
+
+# Gatsby files
+.cache/
+
+# Serverless directories
+.serverless/
+
+# Nuxt.js build / generate output
+.nuxt
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+
+# Optional eslint cache
+.eslintcache
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*

@@ -1,0 +1,11 @@
+.vscode
+.git
+node_modules
+test
+.env.example
+.gitignore
+.travis.yml
+*Dockerfile*
+*docker-compose*
+LICENSE
+README.md
