@@ -4,7 +4,7 @@ temp/
 
 #config
 .env
-.ormconfig.json
+ormconfig.json
 
 # Gatsby files
 .cache/

@@ -1,15 +1,14 @@
 import 'reflect-metadata'
-import { createConnection } from 'typeorm'
 import Koa from 'koa'
 import Router from 'koa-router'
 import bodyParser from 'koa-bodyparser'
 import { User } from './entity/User'
+import { createOrmConn } from './utils'
 
-createConnection()
+createOrmConn()
   .then(async (connection) => {
     const app = new Koa()
     const router = new Router()
-    console.log('test')
 
     app.use(bodyParser())
     app.use(router.routes)
